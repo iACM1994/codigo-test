@@ -1,0 +1,163 @@
+.workDetail{
+    width: 85%;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.detail{
+    width: 50%;
+    max-width: 540px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    float: left;
+}
+
+.workTitle{
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.workLegends{
+    display: grid;
+    grid-template-columns: repeat(3,33.33333%);
+}
+
+.legend-link{
+    display: grid;
+    grid-template-columns: 25px 30px 15px auto 25px;
+    grid-template-rows: 20px 15px 15px 20px;
+    border: 1px solid #dad6da;
+    margin-bottom: 50px;
+}
+
+.legend-icon{
+    grid-column: 2;
+    grid-row: 2/span 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.appStore{
+    background-image: url(https://www.codigo.co/img/ui/ico-app_store.png);
+}
+
+.legend-txt{
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    align-self: center;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.legend-txt-2{
+    font-size: 14px;
+    font-weight: 700;
+    align-self: center;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.workDesc{
+    font-size: 16px;
+    line-height: 28px;
+    color: #272727;
+    margin-bottom: 70px;
+}
+
+.feature_label{
+    width: 40%;
+    max-width: 160px;
+    float: left;
+}
+
+.feature_label p{
+    margin: 0;
+    font-weight: 800;
+    color: #272727;
+}
+
+.features{
+    width: 60%;
+    float: left;
+    border-left: 1px solid #dad6da;
+    padding-left: 25px;
+}
+
+.features ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features ul li{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.detail-bubble{
+    width: 50vw;
+    height: 50vw;
+    max-width: 580px;
+    max-height: 580px;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    position: relative;
+}
+
+.detail-img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+
+.detail-images{
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.detail-image{
+    max-width: 770px;
+    margin: 0 auto;
+    display: block !important;
+    transition: opacity .75s;
+}
+
+.slick-dots{
+
+}
+
+.slick-dots li{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background: #cacaca;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slick-dots li button::before{
+    color: transparent;
+}
+
+.slick-dots li.slick-active{
+    background-color: #d5333e;
+}
+
+.slick-dots li.slick-active button::before{
+    color: transparent;
+}

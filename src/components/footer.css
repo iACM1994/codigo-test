@@ -1,0 +1,102 @@
+.footer{
+    padding: 100px 0 50px;
+    position: relative;
+    background-color: #fafafa;
+    z-index: 10;
+    clear: both;
+}
+
+.footer .footer-title p{
+    font-size: 36px;
+    text-align: center;
+    color: #d5333e;
+    margin-bottom: 75px;
+    display: block;
+    font-weight: 800;
+}
+
+.footer .footer-items{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto 85px;
+    display: table;
+}
+
+.footer .footer-items .f-item:not(:last-child){
+    width: calc( 25% - 1px );
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.footer .footer-items .f-item{
+    width: 25%;
+    display: inline-block;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.footer .footer-items .f-item .f-text{
+    margin: 0 auto;
+    display: table;
+}
+
+.footer .footer-items .f-item:hover .f-text span{
+    color: #d5333e;
+}
+
+.footer .footer-items .f-item .f-text span{
+    font-size: 26px;
+    transition: all .8s cubic-bezier(.2,.6,.4,1);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.footer .footer-items .f-item .f-text span::after{
+    transition: all .8s cubic-bezier(.2,.6,.4,1);
+    left: 0;
+}
+
+.footer .footer-items .f-item .f-text span::after{
+    content: "";
+    width: 15px;
+    height: 9px;
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-top: 7px;
+    margin-left: 20px;
+    background-image: url(https://www.codigo.co/img/icons/arrow-red.svg);
+    background-repeat: no-repeat;
+
+}
+
+.footer .footer-items .f-item:hover .f-text span::after{
+    left: 15px;
+}
+
+.footer .footer-items .f-item .f-text div{
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer .social-links{
+    width: 90%;
+    max-width: 220px;
+    text-align: center;
+    margin: 0 auto 30px;
+    display: table;
+}
+
+.footer .social-links a{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+}
+
+.footer .social-links a:not(:last-child){
+    margin-right: 40px;
+}
+
+.footer .copyrights, .footer .contacts{
+    font-size: 14px;
+    text-align: center;
+}

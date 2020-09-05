@@ -1,0 +1,27 @@
+@font-face{
+    font-family: neue;
+    src: url(./fonts/NeueEinstellung-Regular.woff)
+}
+
+body{
+    font-family: neue;
+    margin: 0;
+    background: #d5333e;
+
+}
+
+body.light{
+    background: #ffffff;
+}
+
+.home{
+    background: #d5333e;
+}
+
+.max-height{
+    min-height: 100vh;
+}
+
+.text-red{
+    color: #d5333e;
+}
